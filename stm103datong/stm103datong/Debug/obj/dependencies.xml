@@ -1,0 +1,2191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\stm103datong /I..\..\..\workspace\stm103datong\example\tdpipstack\lwip /I..\..\..\workspace\stm103datong\example\ptpstm /I..\..\..\workspace\stm103datong\example\yLib\eth\include /I..\..\..\workspace\stm103datong\example\tdpipstack\lwip\include /I..\..\..\workspace\stm103datong\stm_lib\inc /I..\..\..\workspace\stm103datong\example\tdpipstack /I..\..\..\workspace\stm103datong\example /I..\..\..\workspace\stm103datong\example\ptpstm\include /I..\..\..\workspace\stm103datong\example\yLib\inet /I..\..\..\workspace\stm103datong\example\yLib\eth /I..\..\..\workspace\stm103datong\example\usb\inc /I..\..\..\workspace /I..\..\..\workspace\stm103datong\example\clockgen /I..\..\..\workspace\stm103datong\stm_lib /I..\..\..\workspace\stm103datong\example\ether /I..\..\..\workspace\stm103datong\cmsis /I..\..\..\workspace\stm103datong\example\usb /I..\..\..\workspace\stm103datong\cmsis_boot /I..\..\..\workspace\stm103datong\example\ether\include /I..\..\..\workspace\stm103datong\example\yLib">
+      <source file="..\..\..\example\ptpstm\arith.c" lastModified="18d86670227">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\ptpstm\include\constants.h"/>
+         <include file="..\..\..\example\ptpstm\include\ptpd.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="18d86674bdf">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="18d866750db">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\example\common\stmPcf8574.c" lastModified="18d86671da8">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stm32f4x7_eth.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+      </source>
+      <source file="..\..\..\example\ether\yEther.c" lastModified="18d86672d67">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f107_eth.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\ySpiDrv.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethernetif.h"/>
+         <include file="..\..\..\example\ptpstm\include\datatypes.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netconf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\httpd_structs.h" lastModified="18d866705a1">
+         <include file="..\..\..\example\tdpipstack\lwip\include\httpd.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\apds9960ProximitySensor.c" lastModified="18d866739d5">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\netdb.h" lastModified="18d86670e9a">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\ipv4\inet_chksum.c" lastModified="18d86670e8d">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet_chksum.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\as5600.c" lastModified="18d86672a45">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h" lastModified="18d86674b3c">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_map.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rtc.h" lastModified="18d86674b9e">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\inet.h" lastModified="18d866705d2">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="18d8666fc9a">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\dhcp.h" lastModified="18d86670ce2">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_type.h" lastModified="18d866734a1">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\example\usb\inc\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_cl.c" lastModified="18d8666f8c3">
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="18d8666f8a2">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+      </source>
+      <source file="..\..\..\example\motor\yPwmLoop.c" lastModified="18d8667253c">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\yStepper.c" lastModified="18d86674de3">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\ptpstm\ptpd_timer.c" lastModified="18d86670a7d">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\ptpstm\include\ptpd.h"/>
+      </source>
+      <source file="..\..\..\example\display\uc164904_CLCD.c" lastModified="18d86672aab">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\netif.h" lastModified="18d866706dd">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\memp_std.h" lastModified="18d86670a7d">
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_pwr.h" lastModified="18d86673086">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="18d86674d40">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_int.h" lastModified="18d86673034">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="18d86674d9e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="18d86674ce4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\lis3dh.c" lastModified="18d8667363a">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="18d86674c45">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_regs.h" lastModified="18d86673096">
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\snmp\mib_structs.c" lastModified="18d86671303">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\stmLIS3MDL.c" lastModified="18d86673ab2">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\stmL3G4200Gyro.c" lastModified="18d86673a90">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\example\ether\ksz8794cnxSwitch.c" lastModified="18d86673c84">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stm32f4x7_eth_bsp.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\ySpiDrv.h"/>
+         <include file="..\..\..\example\ether\include\ksz_common.h"/>
+         <include file="..\..\..\example\ether\include\ksz8794.h"/>
+      </source>
+      <source file="..\..\..\example\clockgen\ds3231rtc.c" lastModified="18d866728cd">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\wireless\yGps.c" lastModified="18d8667495f">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\yInc.h" lastModified="18d866704d8">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\dns.h" lastModified="18d86670521">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\commun\stmMcp2515CAN.c" lastModified="18d866731b9">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yLib\ySpiDrv.h"/>
+      </source>
+      <source file="..\..\..\example\genio\blinky.c" lastModified="18d86672e05">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\commun\stmMCP3208adc.c" lastModified="18d86672de0">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yLib\ySpiDrv.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\api_msg.h" lastModified="18d86670864">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\sys.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\igmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\api.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_istr.h" lastModified="18d86673046">
+         <include file="..\..\..\example\usb\inc\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\yUtil.c" lastModified="18d86676563">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_init.h" lastModified="18d86673023">
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="18d86674a4e">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="18d86674ae6">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_prop.h" lastModified="18d86673076">
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h" lastModified="18d866715b0">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\arch.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+      </source>
+      <source file="..\..\..\example\clockgen\ad9833_stm.c" lastModified="18d866724ba">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\genio\stmMCP23008i2cGpio.c" lastModified="18d86672e41">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\common\rngloop.c" lastModified="18d866719b1">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\autoip.h" lastModified="18d8667049c">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+      </source>
+      <source file="..\..\..\example\usb\src\usb_mem.c" lastModified="18d86673534">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\pm2008mI2C.c" lastModified="18d86673270">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="18d8666f8d1">
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\etharp.h" lastModified="18d86672498">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+      </source>
+      <source file="..\..\..\example\clockgen\si5328.h" lastModified="18d8666fa09">
+      </source>
+      <source file="..\..\..\example\sensor\si7021_Hum.c" lastModified="18d8667327f">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="18d8667508b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\stats.c" lastModified="18d86671d84">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\eth\include\ethernetif.h" lastModified="18d86673308">
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_desc.h" lastModified="18d8667300e">
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\err.h" lastModified="18d86670545">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\arch.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\eth\include\stm32f1x7_eth_bsp.h" lastModified="18d8667333d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\snmp_structs.h" lastModified="18d86670f77">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\snmp\asn1_enc.c" lastModified="18d86670ef4">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\ether\include\ymdio.h" lastModified="18d8666ff11">
+      </source>
+      <source file="..\..\..\example\wireless\stm433MHz.c" lastModified="18d866731b8">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\ether\w5500.c" lastModified="18d86670a2c">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yLib\ySpiDrv.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_sil.h" lastModified="18d866730a7">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_systick.h" lastModified="18d86674bce">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\example\usb\usbvcpLoop.c" lastModified="18d86672f77">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\usb\inc\stm32_it.h"/>
+         <include file="..\..\..\example\usb\inc\hw_config.h"/>
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+         <include file="..\..\..\example\usb\inc\usb_desc.h"/>
+         <include file="..\..\..\example\usb\inc\usb_prop.h"/>
+         <include file="..\..\..\example\usb\inc\usb_desc.h"/>
+         <include file="..\..\..\example\usb\inc\hw_config.h"/>
+         <include file="..\..\..\example\usb\inc\usb_pwr.h"/>
+         <include file="..\..\..\example\usb\inc\usb_istr.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\yQeiDrv.c" lastModified="18d86676137">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="18d86674b29">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_can.c" lastModified="18d86674c65">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\example\genio\ozled.c" lastModified="18d86672e13">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\sys.h" lastModified="18d86670fdc">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\ptpstm\media_clock.c" lastModified="18d86670a28">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\example\ether\stmMdioBitBang.c" lastModified="18d866719ac">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\commun\stmTCM3105Fsk.c" lastModified="18d86672def">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_lib.h" lastModified="18d86673056">
+         <include file="..\..\..\example\usb\inc\hw_config.h"/>
+         <include file="..\..\..\example\usb\inc\usb_type.h"/>
+         <include file="..\..\..\example\usb\inc\usb_regs.h"/>
+         <include file="..\..\..\example\usb\inc\usb_def.h"/>
+         <include file="..\..\..\example\usb\inc\usb_core.h"/>
+         <include file="..\..\..\example\usb\inc\usb_init.h"/>
+         <include file="..\..\..\example\usb\inc\usb_sil.h"/>
+         <include file="..\..\..\example\usb\inc\usb_mem.h"/>
+         <include file="..\..\..\example\usb\inc\usb_int.h"/>
+      </source>
+      <source file="..\..\..\example\ether\ip101_simpleLoop.c" lastModified="18d8667099a">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f107_eth.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\ySpiDrv.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\raw.h" lastModified="18d8667074d">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="18d8666fc14">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\api\err.c" lastModified="18d866708fd">
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\perf.h" lastModified="18d8667072d">
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\udp.c" lastModified="18d86670e3c">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet_chksum.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\icmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\perf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\dhcp.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\stmMpu6050.c" lastModified="18d866732f1">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\mem.c" lastModified="18d86670d7f">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\sys.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+      </source>
+      <source file="..\..\..\example\clockgen\stmRtcLoop.c" lastModified="18d86672904">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="18d86674d31">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\sockets.h" lastModified="18d86670ba2">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="18d86674b8d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\example\avionics\tca8418_mcdu.c" lastModified="18d86672866">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f107_eth.c" lastModified="18d866757ed">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f107_eth.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethernetif.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="18d86674a6d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\stmSdxl345Accel.c" lastModified="18d86673ae2">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="18d86674b04">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_map.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\memp.h" lastModified="18d86670e53">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp_std.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+      </source>
+      <source file="..\..\..\example\commun\yCanLoop.c" lastModified="18d86672245">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\genio\stmMCP23S17SpiGpio.c" lastModified="18d86672e52">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\stmL3GGD20HGyro.c" lastModified="18d86673aa2">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\snmp.h" lastModified="18d8667077b">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+      </source>
+      <source file="..\..\..\example\motor\Bldc_Drv8313Loop.c" lastModified="18d86671112">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\init.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\ptpstm\sys_time_timer.c" lastModified="18d8667126f">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\ptpstm\include\ptpd.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\pbuf.c" lastModified="18d86670dc4">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\sys.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\perf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcpip.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\tcp.c" lastModified="18d86670e06">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\debug.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\netif.c" lastModified="18d8667119b">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\igmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\autoip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\dhcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\yI2cDrv.c" lastModified="18d8667611f">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\clockgen\si5351.h" lastModified="18d8666fa17">
+      </source>
+      <source file="..\..\..\example\display\stmSpiSt7735Hy18LCD.c" lastModified="18d86670379">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\audio\kt0803_fmTx.c" lastModified="18d86672437">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\usb\src\usb_core.c" lastModified="18d866734ba">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\debug.h" lastModified="18d866708d7">
+         <include file="..\..\..\example\tdpipstack\lwip\include\arch.h"/>
+      </source>
+      <source file="..\..\..\example\commun\stmDtmfLoop.c" lastModified="18d8667125a">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\ptpstm\include\datatypes.h" lastModified="18d866702f3">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\ptpstm\include\constants.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\init.c" lastModified="18d86670987">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\init.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\sockets.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\raw.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp_msg.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\autoip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\igmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\dns.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\ip_frag.h" lastModified="18d86670620">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="18d86674ad8">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\example\audio\stmSn76489ToneGen.c" lastModified="18d8667282d">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\ip.h" lastModified="18d86670dd1">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\api.h" lastModified="18d86670853">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\sys.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\tcpip.h" lastModified="18d8667083b">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\api_msg.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netifapi.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\api.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+      </source>
+      <source file="..\..\..\example\ptpstm\servo.c" lastModified="18d86670a8e">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\ptpstm\include\ptpd.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\snmp\msg_out.c" lastModified="18d86671ede">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="18d86674b16">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\example\display\stmPcf8574i2clcd.c" lastModified="18d86672a78">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\stm3210b_eval.h" lastModified="18d86672fa7">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\ipv4\autoip.c" lastModified="18d86671237">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\autoip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\arch.h" lastModified="18d8667048b">
+         <include file="..\..\..\example\tdpipstack\lwip\include\cc.h"/>
+      </source>
+      <source file="..\..\..\example\common\usart.c" lastModified="18d8667296e">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="18d8667500c">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\clockgen\ds1307.c" lastModified="18d866728b1">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\common\Printf.c" lastModified="18d8666fe3c">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+      </source>
+      <source file="..\..\..\example\clockgen\stmSi5328cClockGen.c" lastModified="18d86672529">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\clockgen\si5351.h"/>
+         <include file="..\..\..\example\clockgen\si5328.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\clockgen\si5328.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_conf.h" lastModified="18d86672fdd">
+      </source>
+      <source file="..\..\..\example\ptpstm\ieee8021as.c" lastModified="18d86670249">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\raw.h"/>
+         <include file="..\..\..\example\ptpstm\include\ptpd.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\snmp_msg.h" lastModified="18d86670b81">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp_structs.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_can.h" lastModified="18d86674a8e">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="18d86670036">
+      </source>
+      <source file="..\..\..\example\motor\DualH_Drv8833MotorLoop.c" lastModified="18d866720c5">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="18d86674d6c">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_wwdg.h" lastModified="18d86674c10">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_map.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_mem.h" lastModified="18d86673066">
+      </source>
+      <source file="..\..\..\example\sensor\vl53L0x.c" lastModified="18d86672b62">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stm32f4x7_eth.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\stm32f4x7_eth.h" lastModified="18d86670bc7">
+         <include file="..\..\..\example\tdpipstack\lwip\include\stm32f4x7_eth_bsp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipmain.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\stm32f10x_conf.h" lastModified="18d86672fb7">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_crc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dac.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dbgmcu.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_sdio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_wwdg.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\httpd.h" lastModified="18d86670591">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_lib.c" lastModified="18d86674d12">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_lib.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\httpd.c" lastModified="18d86670d4f">
+         <include file="..\..\..\example\tdpipstack\lwip\include\debug.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\httpd.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\httpd_structs.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\stm32_it.h" lastModified="18d86672fc9">
+         <include file="..\..\..\example\usb\inc\platform_config.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\stmTC77spi.c" lastModified="18d86670c10">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\ySpiDrv.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\eth\stm32f1x7_eth_bsp.c" lastModified="18d86674282">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f107_eth.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\example\yLib\eth\include\stm32f1x7_eth_bsp.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethernetif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\dhcp.c" lastModified="18d86670d50">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\sys.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\dhcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\autoip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\dns.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+      </source>
+      <source file="..\..\..\example\usb\src\usb_endp.c" lastModified="18d866734df">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+         <include file="..\..\..\example\usb\inc\usb_desc.h"/>
+         <include file="..\..\..\example\usb\inc\usb_mem.h"/>
+         <include file="..\..\..\example\usb\inc\hw_config.h"/>
+         <include file="..\..\..\example\usb\inc\usb_istr.h"/>
+         <include file="..\..\..\example\usb\inc\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\example\motor\stmPid.c" lastModified="18d86672110">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="18d86674b7d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\eth\include\ethopts.h" lastModified="18d86673319">
+         <include file="..\..\..\example\yLib\inet\ipconf.h"/>
+      </source>
+      <source file="..\..\..\example\clockgen\stmSi5351ClockGen.c" lastModified="18d86672539">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\ipv4\ip_addr.c" lastModified="18d86670ad4">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\ySpiDrv.h" lastModified="18d8667327c">
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\stm32f4x7_eth_bsp.h" lastModified="18d86670bd6">
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\example\avionics\stmArinc429spi.c" lastModified="18d86670149">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\ySpiDrv.h"/>
+      </source>
+      <source file="..\..\..\example\ether\include\ksz8794.h" lastModified="18d8666fed8">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\ether\include\ksz_common.h"/>
+      </source>
+      <source file="..\..\..\example\usb\src\usb_regs.c" lastModified="18d8667317f">
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\ySpiDrv.c" lastModified="18d8667614b">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f107_eth.h" lastModified="18d86674e45">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\ipv4\ip.c" lastModified="18d86670e9e">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_frag.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet_chksum.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\icmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\igmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\raw.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\dhcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\perf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+      </source>
+      <source file="..\..\..\example\motor\stmMcp8063BldcLoop.c" lastModified="18d86671150">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\init.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\cmdline.h" lastModified="18d8667321e">
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\loopif.c" lastModified="18d8667104e">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\motor\stmMotorUnipolar.c" lastModified="18d86672100">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\etharp.c" lastModified="18d8667102f">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\dhcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\autoip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+      </source>
+      <source file="..\..\..\example\commun\stmLin.c" lastModified="18d866725f3">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stm32f4x7_eth.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\stmBmp280.c" lastModified="18d86673685">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\cmdline.c" lastModified="18d866739d9">
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\hw_config.h" lastModified="18d86672f89">
+         <include file="..\..\..\example\usb\inc\platform_config.h"/>
+         <include file="..\..\..\example\usb\inc\usb_type.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_def.h" lastModified="18d86672fff">
+      </source>
+      <source file="..\..\..\example\commun\stmDmx512.c" lastModified="18d866729bc">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stm32f4x7_eth.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\motor\stmServoMotorLoop.c" lastModified="18d86671180">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\init.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\usb\src\usb_istr.c" lastModified="18d8667312f">
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+         <include file="..\..\..\example\usb\inc\usb_prop.h"/>
+         <include file="..\..\..\example\usb\inc\usb_pwr.h"/>
+         <include file="..\..\..\example\usb\inc\usb_istr.h"/>
+      </source>
+      <source file="..\..\..\example\usb\src\usb_init.c" lastModified="18d866734f4">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\udp.h" lastModified="18d8667101d">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\mem.h" lastModified="18d86670a5b">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\ptpstm\bmc.c" lastModified="18d86670620">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\ptpstm\include\ptpd.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\ipv4\igmp.c" lastModified="18d86670e70">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\igmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\debug.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet_chksum.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\icmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+      </source>
+      <source file="..\..\..\example\common\rcc.c" lastModified="18d86670deb">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\genio\stmMCP4725DACi2c.c" lastModified="18d86672e74">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\inet_chksum.h" lastModified="18d866705e1">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_map.h" lastModified="18d86674b5d">
+         <include file="..\..\..\example\usb\inc\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\example\usb\src\usb_pwr.c" lastModified="18d8667316e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+         <include file="..\..\..\example\usb\inc\usb_conf.h"/>
+         <include file="..\..\..\example\usb\inc\usb_pwr.h"/>
+         <include file="..\..\..\example\usb\inc\hw_config.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+      </source>
+      <source file="..\..\..\example\usb\src\usb_prop.c" lastModified="18d8667315d">
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+         <include file="..\..\..\example\usb\inc\usb_conf.h"/>
+         <include file="..\..\..\example\usb\inc\usb_prop.h"/>
+         <include file="..\..\..\example\usb\inc\usb_desc.h"/>
+         <include file="..\..\..\example\usb\inc\usb_pwr.h"/>
+         <include file="..\..\..\example\usb\inc\hw_config.h"/>
+      </source>
+      <source file="..\..\..\example\usb\src\usb_int.c" lastModified="18d86673504">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\example\display\stmWs2812_RGBled.c" lastModified="18d86671710">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\dh11TempSensor.c" lastModified="18d866741c5">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\example\ether\stmEnc28J60.c" lastModified="18d86670614">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\ySpiDrv.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="18d86674d8d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_nvic.h" lastModified="18d86674b6e">
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\api\sockets.c" lastModified="18d86670d2a">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\sockets.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\api.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\igmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\raw.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcpip.h"/>
+      </source>
+      <source file="..\..\..\example\common\yUart.c" lastModified="18d8667028a">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\tcp_out.c" lastModified="18d86670e2b">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\sys.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet_chksum.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\tcp_in.c" lastModified="18d86670a32">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet_chksum.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\perf.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\api\netdb.c" lastModified="18d8667208f">
+         <include file="..\..\..\example\tdpipstack\lwip\include\netdb.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="18d86674cb3">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\tcp.h" lastModified="18d86670ffb">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\icmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+      </source>
+      <source file="..\..\..\example\usb\src\usb_desc.c" lastModified="18d866730e7">
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+         <include file="..\..\..\example\usb\inc\usb_desc.h"/>
+      </source>
+      <source file="..\..\..\example\ptpstm\protocol.c" lastModified="18d86670e41">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\ptpstm\include\ptpd.h"/>
+      </source>
+      <source file="..\..\..\example\motor\stmA3967stepper.c" lastModified="18d866720d4">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="18d86675137">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\dns.c" lastModified="18d86673087">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\ether\genMdio.c" lastModified="18d86670591">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\ether\include\ymdio.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\motor\stmX27_Vid29_Stepper.c" lastModified="18d86672cec">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\audio\dtmf.c" lastModified="18d86672428">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\netconf.h" lastModified="18d866706b9">
+      </source>
+      <source file="..\..\..\example\sensor\stmQmc5883Compass.c" lastModified="18d86673ad1">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\igmp.h" lastModified="18d86670d92">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\def.h" lastModified="18d86670501">
+         <include file="..\..\..\example\tdpipstack\lwip\include\arch.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dbgmcu.h" lastModified="18d86674ac8">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_map.h"/>
+      </source>
+      <source file="..\..\..\example\genio\yMcp7219.c" lastModified="18d86672ea1">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\motor\tb6612MotorLoop.c" lastModified="18d86672145">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\cc.h" lastModified="18d866704ca">
+         <include file="..\..\..\example\tdpipstack\lwip\include\cpu.h"/>
+      </source>
+      <source file="..\..\..\example\ptpstm\ptpd.c" lastModified="18d86670a6b">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\ptpstm\include\ptpd.h"/>
+      </source>
+      <source file="..\..\..\example\ether\include\ksz_common.h" lastModified="18d8666fee7">
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\ipv4\icmp.c" lastModified="18d86670e60">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\icmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet_chksum.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\eth\ethernetif.c" lastModified="18d8667424e">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f107_eth.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethernetif.h"/>
+         <include file="..\..\..\example\yLib\eth\include\stm32f1x7_eth_bsp.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\cpu.h" lastModified="18d866704dd">
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\netbuf.h" lastModified="18d866706a6">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\pbuf.h" lastModified="18d86670711">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+      </source>
+      <source file="..\..\..\example\audio\stmTea5767Drv.c" lastModified="18d86672453">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_crc.h" lastModified="18d86674aaa">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_map.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\lwipmain.h" lastModified="18d8667064f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\example\yLib\eth\include\stm32f1x7_eth_bsp.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="18d86674bbe">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="18d86675d85">
+      </source>
+      <source file="..\..\..\example\yLib\eth\mdio407_107.c" lastModified="18d866780de">
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\err.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f107_eth.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethernetif.h"/>
+         <include file="..\..\..\example\yLib\eth\include\stm32f1x7_eth_bsp.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethernetif.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ymdio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_lib.h" lastModified="18d86674b4c">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_crc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dac.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dbgmcu.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_nvic.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_sdio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_systick.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_wwdg.h"/>
+      </source>
+      <source file="..\..\..\example\ptpstm\msg.c" lastModified="18d86670a38">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\ptpstm\include\ptpd.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\ap3216LightSensor.c" lastModified="18d866735dd">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dac.h" lastModified="18d86674ab9">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_map.h"/>
+      </source>
+      <source file="..\..\..\example\ptpstm\include\constants.h" lastModified="18d866702e2">
+      </source>
+      <source file="..\..\..\example\yLib\inet\ipconf.h" lastModified="18d86673385">
+      </source>
+      <source file="..\..\..\example\ptpstm\include\ptpd.h" lastModified="18d86671a73">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f107_eth.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\api.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\igmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\raw.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\arch.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethernetif.h"/>
+         <include file="..\..\..\example\ptpstm\include\constants.h"/>
+         <include file="..\..\..\example\ptpstm\include\datatypes.h"/>
+      </source>
+      <source file="..\..\..\example\wireless\stmNRFspi.c" lastModified="18d8667494b">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\ySpiDrv.h"/>
+      </source>
+      <source file="..\..\..\example\usb\src\usb_sil.c" lastModified="18d86673190">
+         <include file="..\..\..\example\usb\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\snmp\msg_in.c" lastModified="18d86672e6c">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\netifapi.h" lastModified="18d8667168f">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\netconf.c" lastModified="18d86671d44">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\dhcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipmain.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\yLib\eth\include\ethernetif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netconf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="18d86674af6">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="18d8666fc69">
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_sdio.h" lastModified="18d86674bae">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_map.h"/>
+      </source>
+      <source file="..\..\..\example\usb\inc\platform_config.h" lastModified="18d86672f98">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\example\usb\inc\stm3210b_eval.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\init.h" lastModified="18d866705f2">
+      </source>
+      <source file="..\..\..\example\usb\inc\usb_core.h" lastModified="18d86672fee">
+      </source>
+      <source file="..\..\..\example\common\yPrintf.c" lastModified="18d86671604">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\icmp.h" lastModified="18d86670d83">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+      </source>
+      <source file="..\..\..\example\motor\Bldc_Drv11873Loop.c" lastModified="18d86671101">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\init.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+      </source>
+      <source file="..\..\..\example\clockgen\isl1208.c" lastModified="18d866728db">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\ipv4\ip_frag.c" lastModified="18d8667169d">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_frag.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet_chksum.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\icmp.h"/>
+      </source>
+      <source file="..\..\..\example\ptpstm\net.c" lastModified="18d86670a4a">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\ptpstm\include\datatypes.h"/>
+         <include file="..\..\..\example\ptpstm\include\ptpd.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\dustSensor.c" lastModified="18d86670b25">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\sys.c" lastModified="18d86670a0e">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\sys.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcpip.h"/>
+      </source>
+      <source file="..\..\..\example\yLib\eth\include\ymdio.h" lastModified="18d8667335e">
+         <include file="..\..\..\example\yLib\eth\include\ethopts.h"/>
+         <include file="..\..\..\example\yInc.h"/>
+      </source>
+      <source file="..\..\..\example\audio\stmWm8731Drv.c" lastModified="18d86672848">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\stmHmc5883Compass.c" lastModified="18d86673a7f">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\example\sensor\stmBmp180.c" lastModified="18d86673677">
+         <include file="..\..\..\example\yInc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\yLib\cmdline.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="18d8667001e">
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\opt.h" lastModified="18d86670702">
+         <include file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\debug.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\ipv4\inet.c" lastModified="18d86670a97">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\memp.c" lastModified="18d86670d91">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\pbuf.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\udp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\raw.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\igmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\api.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\api_msg.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\tcpip.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\sys.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\etharp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_frag.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp_std.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp_std.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp_std.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp_std.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\lwipopts.h" lastModified="18d86670661">
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\snmp\mib2.c" lastModified="18d86672e49">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\src\core\raw.c" lastModified="18d86670dd4">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\def.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\inet.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\ip_addr.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\netif.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\raw.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\stats.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\snmp.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\perf.h"/>
+      </source>
+      <source file="..\..\..\example\tdpipstack\lwip\include\stats.h" lastModified="18d866707cd">
+         <include file="..\..\..\example\tdpipstack\lwip\include\opt.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\mem.h"/>
+         <include file="..\..\..\example\tdpipstack\lwip\include\memp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="18d8666f893">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="18d86674c00">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_bkp.h" lastModified="18d86674a7e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_map.h"/>
+      </source>
+   </includePath>
+</dependencies>
